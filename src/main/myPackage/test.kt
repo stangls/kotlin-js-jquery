@@ -1,11 +1,26 @@
 
 fun main(args: Array<String>) {
-    //js("require('jQuery');")
     println("Hello JavaScript!")
-    //val arr = Array<Int>(10,{ 0 })
-    x();
+    X.x()
 }
 
-fun require(pkg:String) {
-    js("var req = require(pkg)")
+object X {
+
+    var num = 0;
+    val mainDiv = jQuery("<div id=\"main\"/>",null as JQuery?)
+
+    init{
+        jQuery("body",null as JQuery?).append(mainDiv)
+    }
+
+    fun x() {
+        num+=1;
+        with(mainDiv) {
+            html("counter = $num")
+            fadeIn(200)
+            delay(600)
+            fadeOut(200, { x() })
+        }
+    }
+
 }

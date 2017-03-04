@@ -774,7 +774,3 @@ external var jQuery: JQueryStatic = definedExternally
 @JsModule("jquery")
 external val `$`: JQueryStatic = definedExternally
 
-fun x(){
-    val mainDiv = jQuery("body",null as JQuery?).add("<div />")
-    mainDiv.html("welcome")
-}
