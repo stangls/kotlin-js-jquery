@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext.kotlin_version = '1.1.0'
+    ext.kotlinx_html_version = '0.6.2'
 
     repositories {
         mavenCentral()
@@ -16,6 +17,7 @@ apply plugin: 'kotlin2js'
 
 repositories {
     mavenCentral()
+    jcenter()
     /*maven {
         url  "http://dl.bintray.com/kotlin/kotlinx.html/"
     }*/
@@ -23,7 +25,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
-    //compile 'org.jetbrains.kotlinx:kotlinx-html-js:0.6.1'
+    //compile "org.jetbrains.kotlinx:kotlinx-html-js:${kotlinx_html_version}"
 }
 
 build.doLast {

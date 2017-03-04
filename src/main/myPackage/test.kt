@@ -1,3 +1,9 @@
+/*
+import kotlinx.html.*
+import kotlinx.html.dom.*
+import kotlinx.html.js.*
+import kotlin.browser.document
+*/
 
 fun main(args: Array<String>) {
     println("Hello JavaScript!")
@@ -14,6 +20,7 @@ object X {
     }
 
     fun x() {
+
         num+=1;
         with(mainDiv) {
             html("counter = $num")
