@@ -16,10 +16,14 @@ apply plugin: 'kotlin2js'
 
 repositories {
     mavenCentral()
+    /*maven {
+        url  "http://dl.bintray.com/kotlin/kotlinx.html/"
+    }*/
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+    //compile 'org.jetbrains.kotlinx:kotlinx-html-js:0.6.1'
 }
 
 build.doLast {

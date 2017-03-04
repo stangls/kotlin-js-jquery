@@ -1,5 +1,5 @@
 
-# Kotlin JS + jQuery test
+# Kotlin JS + typesafe jQuery
 
 ## Try it out
 
