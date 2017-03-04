@@ -774,3 +774,7 @@ external var jQuery: JQueryStatic = definedExternally
 @JsModule("jquery")
 external val `$`: JQueryStatic = definedExternally
 
+
+/// helper
+
+fun jQuery(x:String) = jQuery(x,null as JQuery?)

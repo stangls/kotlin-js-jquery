@@ -7,26 +7,25 @@ import kotlin.browser.document
 
 fun main(args: Array<String>) {
     println("Hello JavaScript!")
-    X.x()
+    Main.incrementAndShow()
 }
 
-object X {
+object Main {
 
-    var num = 0;
-    val mainDiv = jQuery("<div id=\"main\"/>",null as JQuery?)
+    var num = 0
+    val mainDiv : JQuery =
+        jQuery("<div id=\"main\"/>").apply {
+            jQuery("body").append(this)
+        }
 
-    init{
-        jQuery("body",null as JQuery?).append(mainDiv)
-    }
 
-    fun x() {
-
+    fun incrementAndShow() {
         num+=1;
         with(mainDiv) {
             html("counter = $num")
             fadeIn(200)
             delay(600)
-            fadeOut(200, { x() })
+            fadeOut(200, { incrementAndShow() })
         }
     }
 

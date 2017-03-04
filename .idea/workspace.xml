@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="335c087a-27ee-496d-abfb-d530d87b1a66" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/myPackage/jQuery.kt" afterPath="$PROJECT_DIR$/src/main/myPackage/jQuery.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/myPackage/test.kt" afterPath="$PROJECT_DIR$/src/main/myPackage/test.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -98,8 +98,8 @@
       <file leaf-file-name="jQuery.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/myPackage/jQuery.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="776" column="0" lean-forward="true" selection-start-line="776" selection-start-column="0" selection-end-line="776" selection-end-column="0" />
+            <state relative-caret-position="1214">
+              <caret line="777" column="10" lean-forward="false" selection-start-line="777" selection-start-column="10" selection-end-line="777" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -108,8 +108,8 @@
       <file leaf-file-name="test.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/myPackage/test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#109#0" expanded="true" />
               </folding>
@@ -160,7 +160,7 @@
       <file leaf-file-name="output.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/output.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="225">
               <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
@@ -571,15 +571,14 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/web/entry.js" />
-        <option value="$PROJECT_DIR$/src/main/myPackage/jQuery.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/myPackage/jQuery.kt" />
         <option value="$PROJECT_DIR$/src/main/myPackage/test.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1707" />
-    <option name="y" value="720" />
     <option name="width" value="849" />
     <option name="height" value="716" />
   </component>
@@ -1013,7 +1012,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1707" y="720" width="849" height="716" extended-state="0" />
+    <frame x="1707" y="0" width="849" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/output.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="225">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
@@ -1218,14 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/myPackage/jQuery.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="776" column="0" lean-forward="true" selection-start-line="776" selection-start-column="0" selection-end-line="776" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1234,10 +1225,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/myPackage/jQuery.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1214">
+          <caret line="777" column="10" lean-forward="false" selection-start-line="777" selection-start-column="10" selection-end-line="777" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/myPackage/test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#109#0" expanded="true" />
           </folding>
