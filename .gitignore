@@ -2,3 +2,7 @@
 build
 .gradle
 web/output*
+.package.json.tstamp
+dist
+web
+node_modules
