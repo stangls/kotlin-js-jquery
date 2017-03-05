@@ -9,7 +9,8 @@
 
 open `web/index.html`
 
-## Further plan
+## Further plans
 
-make use of npm and webpack
+* make use of npm and webpack
+* integrate kotlinx
 
