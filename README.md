@@ -4,10 +4,10 @@
 ## Try it out
 
 ```bash
-./gradlew build
+./dist.sh
 ```
 
-open `web/index.html`
+open `dist/index.html`
 
 ## Further plans
 

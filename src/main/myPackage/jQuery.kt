@@ -770,11 +770,12 @@ external interface JQuery {
     fun queue(queueName: String, newQueue: Array<Function<*>>): JQuery
     fun queue(queueName: String, callback: Function<*>): JQuery
 }
-external var jQuery: JQueryStatic = definedExternally
-@JsModule("jquery")
-external val `$`: JQueryStatic = definedExternally
+//external var jQuery: JQueryStatic = definedExternally
+//@JsModule("jquery")
+//external val `$`: JQueryStatic = definedExternally
 
-
-/// helper
-
+// jquery easy-access helper
+@JsName("jquery_123")
+val jquery : JQueryStatic = require("jquery")
+val jQuery = jquery
 fun jQuery(x:String) = jQuery(x,null as JQuery?)

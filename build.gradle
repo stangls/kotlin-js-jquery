@@ -44,7 +44,7 @@ build.doLast {
 }
 
 compileKotlin2Js {
-    kotlinOptions.outputFile = "web/output.js"
+    kotlinOptions.outputFile = "web/app.js"
     kotlinOptions.moduleKind = "plain"
     kotlinOptions.sourceMap = true
 }

@@ -5,6 +5,7 @@ import kotlinx.html.js.*
 import kotlin.browser.document
 */
 
+
 fun main(args: Array<String>) {
     println("Hello JavaScript!")
     Main.incrementAndShow()
@@ -20,7 +21,7 @@ object Main {
 
 
     fun incrementAndShow() {
-        num+=1;
+        num += 1;
         with(mainDiv) {
             html("counter = $num")
             fadeIn(200)
