@@ -2,6 +2,11 @@
 
 # Kotlin JS + typesafe jQuery
 
+## What it does
+
+Allows to write Kotlin code and compile it to javascript including typesafe access to the jQuery library and other libraries (when converted using ts2kt, see below).
+Packages everything together via browserify (require.js) for distribution.
+
 ## Try it out
 
 ```bash
