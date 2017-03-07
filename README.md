@@ -15,3 +15,10 @@ open `dist/index.html`
 * ~~make use of npm and broswerify~~
 * integrate kotlinx
 
+## Extension
+
+It should be easy (not tested yet) to extend this project with other javascript libraries:
+
+1. add npm-dependency to package.json
+1. find typescript-file and transform it via [ts2kt](https://github.com/Kotlin/ts2kt) 
+1. use it via ```require(...)```
