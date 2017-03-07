@@ -13,7 +13,8 @@ Packages everything together via browserify (require.js) for distribution.
 ./dist.sh
 ```
 
-open `dist/index.html`
+open `dist/index.html` in your browser.
+You should see an animated textual counter.
 
 ## Further plans
 
