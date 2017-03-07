@@ -14,7 +14,8 @@ Packages everything together via browserify (require.js) for distribution.
 ```
 
 open `dist/index.html` in your browser.
-You should see an animated textual counter.
+
+You should now see an animated textual counter.
 
 ## Further plans
 
