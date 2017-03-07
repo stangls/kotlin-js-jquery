@@ -11,6 +11,6 @@ open `dist/index.html`
 
 ## Further plans
 
-* make use of npm and webpack
+* ~~make use of npm and broswerify~~
 * integrate kotlinx
 
