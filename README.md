@@ -4,7 +4,7 @@
 
 ## What it does
 
-Example of how to easily compile Kotlin with typesafe access to the jQuery library to javascript. Allows using any other javascript libraries (when converted using ts2kt, see below).
+Example of how to easily compile Kotlin to javascript with typesafe access to the jQuery library. Allows using any other javascript libraries (when converted using ts2kt, see below).
 Packages everything together via browserify (require.js) for distribution.
 
 ## Try it out
